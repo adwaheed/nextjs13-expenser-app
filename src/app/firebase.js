@@ -4,9 +4,7 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { getFirestore } from "firebase/firestore";
 
-export async function getStaticProps() {
-  var apiKey = process.env.API_KEY;
-}
+var apiKey = process.env.API_KEY;
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
